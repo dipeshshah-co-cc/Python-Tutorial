@@ -1,0 +1,20 @@
+## =========================================================
+# 1) Make sure you have apache and enable mod-python on your apache. For example on ubuntu:
+#    $ sudo apt-get install apache2
+#    $ sudo apt-get install libapache2-mod-python
+#    $ sudo a2enmod python
+#
+# 2) Make sure you have proper PythonHandler. For example:
+# AddHandler mod_python .py
+# PythonHandler mod_python.publisher
+# PythonDebug On
+#
+# 3) Enter this codes and name it as 'pythonmysample.py' on your web directory i.e. for Linux /var/www
+#
+# 4) test it on your browser http://localhost/pythonmysample.py
+#
+
+sudo apt-get install apache2
+sudo apt-get install libapache2-mod-python
+sudo a2enmod python
+
